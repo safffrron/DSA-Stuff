@@ -1,4 +1,5 @@
-#include <bits/c++.h>
+#include <bits/stdc++.h>
+#define ll long long
 using namespace std;
 
 int solve()
@@ -8,8 +9,9 @@ int solve()
 
 int main()
 {
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    cout.tie(NULL);
     
     
     
