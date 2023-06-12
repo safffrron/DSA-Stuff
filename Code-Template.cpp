@@ -13,7 +13,13 @@ int main()
     cin.tie(NULL);
     cout.tie(NULL);
     
-    
+    //input test cases
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        
+    }
     
     return 0;
 }    
