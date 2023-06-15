@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long
-#define end '\n
+#define end '\n'
 using namespace std;
 
 int solve()
