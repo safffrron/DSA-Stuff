@@ -6,7 +6,7 @@ using namespace std;
 int countSetBits(int n)
 {
   int c=0;
-      while(n>0)
+      while(n>0)           //Or just use the built in function  __builtin_popcount(x)
       {
           n=n&(n-1);
           c++;
