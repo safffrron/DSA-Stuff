@@ -22,7 +22,7 @@ int main()
         for(int i=0;i<n;i++)
         {
             cin>>s;
-            ans= ans ^ s;
+            ans= ans ^ s; // using the XOR property
         }
         cout<<ans<<end;
     }
