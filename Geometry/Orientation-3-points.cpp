@@ -5,13 +5,25 @@ using namespace std;
 
 struct Point
 {
-    int x;
-    int y;
+    int x=0;
+    int y=0;
 };
 
-int solve(Point p1,Point p2, Point p3)
+int orientation(Point p1,Point p2, Point p3)
 {
-    
+    ll ans= ((p3.x - p2.x) * (p2.y - p1.y))-((p3.y -p2.y)* (p2.x- p1.x)) ;
+    if(ans>0)   // clockwise
+    {
+        return 1;
+    }
+    else if(ans<0)  //anti-clock
+    {
+        return -1;
+    }
+    else
+    {
+        return 0;
+    }
 }
 
 int main()
