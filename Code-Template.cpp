@@ -3,7 +3,7 @@
 #define end '\n'
 using namespace std;
 
-int solve()
+void solve()
 {
     
 }
@@ -19,7 +19,7 @@ int main()
     cin>>t;
     while(t--)
     {
-        
+        solve();
     }
     
     return 0;
