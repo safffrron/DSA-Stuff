@@ -3,6 +3,8 @@
 #define next '\n'
 using namespace std;
 
+const int mod = 1e9 +7;
+
 void solve()
 {
     
