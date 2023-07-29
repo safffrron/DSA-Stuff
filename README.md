@@ -1,3 +1,5 @@
+<pre>
+
 #include <bits/stdc++.h>
 #define ll long long
 #define next '\n'
@@ -26,3 +28,5 @@ int main()
     
     return 0;
 } 
+
+</pre>
