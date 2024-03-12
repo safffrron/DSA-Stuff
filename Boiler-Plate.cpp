@@ -1,6 +1,6 @@
 #include <bits/stdc++.h>
 #define ll long long
-#define next '\n'
+#define endl '\n'
 using namespace std;
 
 const int mod = 1e9 +7;
